@@ -1,0 +1,19 @@
+/*
+ * Filename: HelloDialog.java
+ * Author: Sebastian Hall
+ * Date: 06/22/18
+ * Purpose: Create first screen dialog box that says hello world
+ */
+
+
+//Import Package
+import javax.swing.JOptionPane;
+
+//Class
+public class HelloDialog
+{
+    public static void main(String [] args)
+    {
+        JOptionPane.showMessageDialog(null,"Hello World!");
+    }
+}
